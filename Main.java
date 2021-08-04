@@ -20,7 +20,8 @@ public class TextFileReadingExample1 {
             }
          System.out.print("Hi");
             reader.close();
- System.out.println("Object has been deserialized ");
+ System.out.println("Object has been deserialized 
+                    System.out.println("Object has been eserialized ");
             
         } catch (IOException e) {
             e.printStackTrace();
