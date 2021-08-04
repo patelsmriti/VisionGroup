@@ -12,7 +12,7 @@ public class TextFileReadingExample1 {
  
     public static void main(String[] args) {
         try {
-            FileReader reader = new FileReader("MyFile.txt");
+            FileReader reader = new FileReader("Fashion.txt");
             int character;
  
             while ((character = reader.read()) != -1) {
