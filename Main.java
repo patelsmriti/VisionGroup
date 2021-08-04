@@ -18,6 +18,7 @@ public class TextFileReadingExample1 {
             while ((character = reader.read()) != -1) {
               //  System.out.print((char) character);
             }
+         System.out.print("Hi");
             reader.close();
  
         } catch (IOException e) {
